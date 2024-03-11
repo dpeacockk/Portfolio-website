@@ -10,7 +10,7 @@ export default function Home() {
           <li className="navbar_element">Experience</li>
           <li className="navbar_element">Projects</li>
           <li className="navbar_element">For Fun</li>
-          <li className="navbar_element">Contact Me</li>
+          <li className="navbar_element">Contact</li>
         </ul>
       </div>
       <div className="home-wrapper">
