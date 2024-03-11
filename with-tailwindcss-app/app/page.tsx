@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col  justify-between">
+    <main className="min-h-screen">
       <div className="navbar-wrapper">
         <ul className="navbar">
           <li className="navbar_element">Home</li>
@@ -10,11 +10,11 @@ export default function Home() {
           <li className="navbar_element">Experience</li>
           <li className="navbar_element">Projects</li>
           <li className="navbar_element">For Fun</li>
+          <li className="navbar_element">Contact Me</li>
         </ul>
       </div>
-      <div className="home-wrapper p-200">
+      <div className="home-wrapper">
         HELLO WORLD
-
       </div>
       <div className="footer-wrapper">
         

@@ -19,6 +19,7 @@
 }
 
 body {
+  width: 100%;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -34,22 +35,24 @@ body {
   }
 }
 
+
 .navbar_wrapper{
-  width: 100%;
+  display: inline;
 }
 
 .navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   background-color: rgb(var(--navbar-color));
-  display: flex;
-  list-style-type:none;
 }
 
-
 .navbar_element {
-  color: greenyellow;
-  padding: 1.35%;
-  border-color: black;
-  border-width: 1px;
+  display: inline;
+  color: rgba(172, 255, 47, 0.934);
+  padding: 1.5%;
+  background-color: rgb(var(--navbar-color));
 }
 
 .navbar_element:hover {
@@ -59,6 +62,7 @@ body {
 .home_wrapper {
   width: 75%;
   background-color: rgb(var(--navbar-color));
+  color: black;
 }
 
 
