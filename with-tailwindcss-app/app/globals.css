@@ -19,7 +19,6 @@
 }
 
 body {
-  width: 100%;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -42,30 +41,37 @@ body {
 
 .navbar {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: auto;
   overflow: hidden;
   background-color: rgb(var(--navbar-color));
 }
 
-.navbar_element {
+.navbar-element {
   display: inline;
   color: rgba(172, 255, 47, 0.934);
   padding: 1.5%;
   background-color: rgb(var(--navbar-color));
 }
 
-.navbar_element:hover {
+.navbar-element:hover {
   background-color: rgb(var(--very-dark-gray));
 }
 
-.home_wrapper {
-  width: 75%;
+.home-wrapper {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
   background-color: rgb(var(--navbar-color));
-  color: black;
+  color: pink;
 }
 
-
+.footer-wrapper {
+  background-color: rgb(var(--navbar-color));
+  position:fixed;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+}
 
 
 
