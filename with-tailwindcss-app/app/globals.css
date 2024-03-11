@@ -11,8 +11,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 0, 0, 100;
+    --background-end-rgb: 100, 110, 0;
+    --navbar-color: 75, 75, 75;
+    --very-dark-gray: 25, 25, 25;
   }
 }
 
@@ -31,3 +33,35 @@ body {
     text-wrap: balance;
   }
 }
+
+.navbar_wrapper{
+  width: 100%;
+}
+
+.navbar {
+  background-color: rgb(var(--navbar-color));
+  display: flex;
+  list-style-type:none;
+}
+
+
+.navbar_element {
+  color: greenyellow;
+  padding: 1.35%;
+  border-color: black;
+  border-width: 1px;
+}
+
+.navbar_element:hover {
+  background-color: rgb(var(--very-dark-gray));
+}
+
+.home_wrapper {
+  width: 75%;
+  background-color: rgb(var(--navbar-color));
+}
+
+
+
+
+
